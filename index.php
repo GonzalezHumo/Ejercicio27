@@ -85,6 +85,7 @@ if ($p === 23 && $_SERVER['REQUEST_METHOD'] === 'POST') {
 // ───────────────────────────────────────────────────────────────
 $fecha24 = null;
 if ($p === 24) {
+    date_default_timezone_set('America/Mazatlan');
     $dias  = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
     $meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
     $fecha24 = [
