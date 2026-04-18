@@ -402,7 +402,8 @@ $menu = [
   <!-- ░░ ENCABEZADO GLOBAL ░░ -->
   <div class="site-header">
     <h1>Prácticas <span>21 – 26</span><br>con PHP</h1>
-    <p>Victoria Marbella González Humo · Los Mochis, Sinaloa · 2026</p>
+    <p>Victoria Marbella González Humo</p>
+    <p>Elige la opcion que desees realizar: </p>
   </div>
 
   <!-- ░░ MENÚ DE PRÁCTICAS ░░ -->
@@ -677,7 +678,6 @@ $menu = [
       Hoy es <?= $fecha24['dia_nombre'] ?> <?= $fecha24['dia_num'] ?>
       de <?= $fecha24['mes'] ?> del año <?= $fecha24['anio'] ?>
     </div>
-    <div class="server-badge">Generado con PHP · date()</div>
   </div>
 
 
@@ -745,7 +745,6 @@ $menu = [
 
   <!-- ░░ FOOTER ░░ -->
   <div class="footer">
-    Victoria Marbella González Humo · Los Mochis, Sinaloa · 2026
   </div>
 
 </div>
