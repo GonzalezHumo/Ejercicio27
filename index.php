@@ -425,7 +425,6 @@ $menu = [
   ══════════════════════════════════════════════════════════ -->
   <div class="home-intro">
     <p>
-      Selecciona una práctica del menú para ejecutarla.<br>
     </p>
   </div>
 
